@@ -6,7 +6,7 @@ pipeline{
         changeRequest()
       }
       steps{
-        echo "Hello World changing request"
+        echo "Main branch changing request"
       }
     }
   }
