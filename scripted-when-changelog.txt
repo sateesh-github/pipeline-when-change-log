@@ -1,8 +1,8 @@
 node{
 	checkout([$class: 'GitSCM', 				
-						branches: [[name: "origin/master"]], 
+						branches: [[name: "origin/main"]], 
 						userRemoteConfigs: [[
-						url: 'https://github.com/pipelineascodecourse/scripted-when-changelog.git']]
+						url: 'https://github.com/sateesh-github/pipeline-when-change-log.git']]
 						])
 
 	def changeLogFound = false
