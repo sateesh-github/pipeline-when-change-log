@@ -2,9 +2,9 @@ pipeline{
   agent any
   stages{
     stage('Build'){
-      when{
+     /* when{
         changeRequest()
-      }
+      }*/
       steps{
         echo "Hello World changing request"
       }
